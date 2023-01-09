@@ -1,3 +1,3 @@
-FROM matthewc2003/kaniko-demo-image:1.3
+FROM matthewc2003/kaniko-demo-image:1.3.1
 
-RUN cd home/ && chmod -R 777 stable-diffusion-webui/
+RUN chmod -R 777 .cache/
