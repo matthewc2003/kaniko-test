@@ -1,4 +1,4 @@
-FROM matthewc2003/kaniko-demo-image:1.0
+FROM matthewc2003/kaniko-demo-image:1.1
 
 RUN apt-get install -y git nano lzma-dev liblzma-dev
 RUN cd home/
