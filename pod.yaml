@@ -8,7 +8,7 @@ spec:
     image: gcr.io/kaniko-project/executor:latest
     args:
     - "--context=git://github.com/matthewc2003/kaniko-test"
-    - "--destination=matthewc2003/webui-debian:1.0"
+    - "--destination=matthewc2003/webui-ubuntu-cuda113:1.0"
     volumeMounts:
     - name: kaniko-secret
       mountPath: /kaniko/.docker
