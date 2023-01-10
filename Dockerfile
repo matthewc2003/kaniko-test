@@ -1,6 +1,6 @@
 FROM nvidia/cuda:11.3.0-cudnn8-devel-ubuntu20.04
 
-RUN apt-get update && apt-get upgrade
+RUN apt-get -y update && apt-get -y upgrade
 RUN apt install -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget libbz2-dev liblzma-dev lzma-dev git
 RUN apt-get install ffmpeg libsm6 libxext6  -y
 
